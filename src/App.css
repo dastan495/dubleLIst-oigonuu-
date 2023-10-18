@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.content {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}
+
+.less_card {
+    margin-top: 50px;
+}
+
+.card_title {
+    margin-top: 15px;
+}
+
+.card_iframe {
+    margin-top: 30px;
+    max-width: 700px;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.card_desc {
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 40px;
+}

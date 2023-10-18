@@ -1,11 +1,11 @@
 import React from "react";
-import FirstPage from "../pages/FirstPage";
 import AuthPage from "../pages/AuthPage";
 import { Route, Routes } from "react-router-dom";
+import MainPage from "../components/MainPage/Main";
 const MainRouts = () => {
     let userRoutes = [
-        { link: "/", element: <FirstPage />, id: 1 },
-        { link: "/auth", element: <AuthPage />, id: 2 },
+        { link: "/user", element: <MainPage />, id: 1 },
+        { link: "/", element: <AuthPage />, id: 2 },
     ];
     return (
         <>
